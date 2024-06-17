@@ -1,0 +1,14 @@
+
+export MES_STACK=6000000
+export MES_ARENA=20000000
+export MES_MAX_ARENA=20000000
+export MK_LIB=${PWD}
+export MES_DEBUG=4
+export MES_PREFIX=${MK_LIB}/vendor/mes
+export GUILE_LOAD_PATH="${MK_LIB}/vendor/mes/mes/module:${MK_LIB}/vendor/mes/module:${MK_LIB}/vendor/nyacc/module:${MK_LIB}/vendor/gash:${MK_LIB}/vendor/gash-utils"
+set -x
+cd ${MK_LIB}
+
+export PATH=
+
+./vendor/mes/bin/mes-mes -e main vendor/gash/scripts/gash

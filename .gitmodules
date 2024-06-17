@@ -1,0 +1,25 @@
+[submodule "stage0-posix"]
+	path = vendor/stage0
+	url = https://github.com/oriansj/stage0-posix
+[submodule "mes"]
+	path = vendor/mes
+	url = https://git.savannah.gnu.org/git/mes.git
+	tag = v0.26
+[submodule "nyacc"]
+	path = vendor/nyacc
+	url = https://github.com/Googulator/nyacc
+	tag = V1.00.2-lb1
+[submodule "tinycc"]
+	path = vendor/tinycc
+	url = https://gitlab.com/janneke/tinycc
+	branch = mes-0.26
+[submodule "make"]
+	path = vendor/make
+	url = https://git.savannah.gnu.org/git/make.git
+	tag = 3.82
+[submodule "vendor/gash"]
+	path = vendor/gash
+	url = git://git.savannah.gnu.org/gash.git
+[submodule "vendor/gash-utils"]
+	path = vendor/gash-utils
+	url = git://git.savannah.gnu.org/gash/gash-utils.git
