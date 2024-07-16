@@ -243,4 +243,3 @@ cd ${MK_LIB}/vendor/gash
     ;; other"
 
 cd ${MK_LIB}
-./vendor/mes/bin/mes-mes --no-auto-compile -e main vendor/gash/scripts/gash xx.sh
